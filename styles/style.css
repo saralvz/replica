@@ -49,3 +49,24 @@ nav-link a:hover {
     box-shadow: 0 4px 16px #2937F0;
     transition: all 0.2s ease;
 }
+
+.title-mobile {
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.text-mobile {
+    font-size: 15pt;
+    color: grey;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.img-movil {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
