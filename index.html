@@ -15,31 +15,48 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" data-aos="fade-down" data-aos-duration="3000" href="#">
-                <img src="./img/logo.PNG" class="img-logotipo" alt="Réplica">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="3000" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Herramientas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Descargas</a>
-                        </li>
-                    </ul>
-                </div>
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" data-aos="fade-down" data-aos-duration="3000" href="#">
+                    <img src="./img/logo.PNG" class="img-logotipo" alt="Réplica">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" data-aos="fade-down" data-aos-duration="3000" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Herramientas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Descargas</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="nav-button" data-aos="fade-down" data-aos-duration="3000">
-                    <a href="https://factoriaf5.org" target="_blank" class="feedback">Enviar Feedback</a>
-                </div> 
+                    <div class="nav-button" data-aos="fade-down" data-aos-duration="3000">
+                        <a href="https://factoriaf5.org" target="_blank" class="feedback"><i class="bi bi-chat-text-fill"></i>Enviar Feedback</a>
+                    </div> 
+                </div>
+            </nav>
+        </header>
+
+        <article>
+            <div class="d-flex flex-row p-2 bd-highligh">
+                <p class="title-mobile">¡Muéstranos tu<br>talento<br>programando!</p>
+        
+                <img src="./img/movil.gif" class="img-movil" data-aos="fade-down" data-aos-duration="3000" alt="Sync">
             </div>
-          </nav>
-    </header>
+
+            <div class="d-flex flex-column p-2 bd-highligh">
+                <p class="text-mobile ">Esta es tu oportunidad para demostrar lo que has aprendido<br> en la ruta de investigación y las masterclass</p>
+            </div>
+        </article>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+        AOS.init();
+    </script>  
 </body>
 </html>
